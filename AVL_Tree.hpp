@@ -9,23 +9,23 @@ using namespace std ;
 
 class Node{
 	public : 
-		int data ;
-		int height ; 
-		Node *Left ; 
-		Node *Right ;
+	int data ;
+	int height ; 
+	Node *Left ; 
+	Node *Right ;
 	
-		Node(int data){
-			this->data = data ; 
-			height = 1 ; 
-			Left = Right = NULL ;
-		}
-		
-		inline bool IsBalanced(){
-			int Lh = 0 , Rh = 0 ; 
-			if(this->Right) Rh = this->Right->height ; 
-			if(this->Left) Lh = this->Left->height ; 
-			return (abs(Lh - Rh) <= 1) ;
-		}
+	Node(int data){
+	    this->data = data ; 
+	    height = 1 ; 
+	    Left = Right = NULL ;
+	}
+	
+	inline bool IsBalanced(){
+	    int Lh = 0 , Rh = 0 ; 
+	    if(this->Right) Rh = this->Right->height ; 
+	    if(this->Left) Lh = this->Left->height ; 
+	    return (abs(Lh - Rh) <= 1) ;
+	}
 };
 
 

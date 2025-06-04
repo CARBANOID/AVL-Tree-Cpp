@@ -23,6 +23,6 @@ An **AVL Tree** (named after Adelson-Velsky and Landis) is a type of binary sear
 * **RL (Right-Left) Rotation**
 
 ---
-
-This project is currently not licensed.
-All rights are reserved by the author. You may view the code, but copying, modifying, or redistributing it is not permitted without explicit permission.
+⚙️ Usage
+You can integrate this AVL Tree in larger projects or use it as a standalone module for learning, testing, or performance analysis.
+---
